@@ -11,7 +11,7 @@ server:
   port: 9001
 spring:
   application:
-    name: identity-service
+    name: auth-service
   datasource:
     url: jdbc:postgresql://host.docker.internal:5433/identitydev
     username: postgres
