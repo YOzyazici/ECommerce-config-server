@@ -13,7 +13,7 @@ spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:postgresql://host.docker.internal:5433/identitydev
+    url: jdbc:postgresql://host.docker.internal:5433/authdev
     username: postgres
     password: 12345
   jpa:
